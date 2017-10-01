@@ -41,3 +41,7 @@ div.tab button.active {
 img{
     border-radius: 50%;
 }
+
+#education #img img{
+    float: left;
+}
