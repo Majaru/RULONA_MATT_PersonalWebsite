@@ -35,13 +35,9 @@ div.tab button.active {
     background-color: #ccc;
     width: 70%;
     border-left: none;
-    height: 400px;
+    height: 500px;
 }
 
 img{
     border-radius: 50%;
-}
-
-#education #img img{
-    float: left;
 }
