@@ -9,7 +9,9 @@
 	<body background="maxresdefault.png">
 		<div class="topnav" id="myTopnav">
   			<a href="index.html">Back</a>
+  			<pre style=color:#FFFFFF;font-size:100%;font-family:Arial Unicode MS><b><center>M a t t ' s    P r o f i l e </center></b></pre>
 			<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+
 		</div>
 
 		<div class="tab">
@@ -17,62 +19,121 @@
   			<button class="tablinks" onclick="openTab(event, 'Education')">Education</button>
   			<button class="tablinks" onclick="openTab(event, 'Skills')">Skills</button>
   			<button class="tablinks" onclick="openTab(event, 'Contacts')">Contacts</button>
-  			<button class="tablinks" onclick="openTab(event, 'Gallery')">Gallery</button>
+  			<button class="tablinks" onclick="openTab(event, 'About')">About</button>
 
   		</div>
   		
   		<div id="Basic Information" class="tabcontent">
-	  		<h3>Basic Information</h3>
-	  		<pre>         
+	  		<h3 style=font-size:150%;font-family:Arial Unicode MS>Basic Information</h3>
+		  		<pre style=position:absolute;left:400px;to:1px;font-family:Arial Unicode MS>         
+		  			<b>Name:</b> Matt Jacob C. Rulona			|		<b>Mother's Name:</b> Mildred C. Rulona
+		  											|			
+		  			<b>Nickname:</b> "Matt", "Maco" 			|		<b>Father's Name:</b> Joel C. Rulona
+		  											|		
+		  			<b>Age:</b> 19							|		<b>Likes:</b> playing online games, looking at skyscrapers, 
+		  											|			   listening to music, watching documentaries
+		  			<b>Birthday:</b> September 9, 1998			|		
+		  											|		<b>Dislikes:</b> slow work progress, things 
+		  			<b>Address:</b> 479-6 Alley, Malvar Street	|			       that are not perfectly arranged
+		  											|		
+		  			<b>City:</b> Davao City					|		
+		  											|		
+		  			<b>Postal Code:</b> 8000					|		
+		  											|		
+		  			<b>Nationality:</b> Filipino				|		
+		  											|		
+		  			<b>Religion:</b> Roman Catholic			|		
 
-	  <img src="b1c35227-d357-422b-998d-6d9c1fdf5ec7.jpg" align="left">  
-	  			
-	  			Name: Matt Jacob C. Rulona
-	  			Nickname: "Matt", "Maco" 
-	  			Age: 19
-	  			Birthday: September 9, 1998
-	  			Address: 479-6 Alley, Malvar Street
-	  			City: Davao City
-	  			Postal Code: 8000
+		  		</pre>
 
-	  
+	  		<div class="row">
+  				<div class="column">
+    				<img src="b1c35227-d357-422b-998d-6d9c1fdf5ec7.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+    				<pre style=font-size:80%;font-family:Arial Unicode MS>  (Click me for more pics)</pre>
+  				</div>
+			</div>
+
+			<div id="myModal" class="modal">
+			  <span class="close cursor" onclick="closeModal()">&times;</span>
+			  <div class="modal-content">
+			    <div class="mySlides">
+			      <div class="numbertext">1 / 4</div>
+			      <img src="b1c35227-d357-422b-998d-6d9c1fdf5ec7.jpg" style="width:100%">
+			    </div>
+
+			    <div class="mySlides">
+			      <div class="numbertext">2 / 4</div>
+			      <img src="4d3a6763-8597-4416-bc71-49c051a5c8e8.jpg" style="width:100%">
+			    </div>
+
+			    <div class="mySlides">
+			      <div class="numbertext">3 / 4</div>
+			      <img src="IMG_20170613_160829.png" style="width:100%">
+			    </div>
+
+			    <div class="mySlides">
+			      <div class="numbertext">4 / 4</div>
+			      <img src="" style="width:100%">
+			    </div>
+
+			    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			    <div class="caption-container">
+			      <p id="caption"></p>
+			    </div>
+
+			    <div class="column">
+			      <img class="demo" src="b1c35227-d357-422b-998d-6d9c1fdf5ec7.jpg" onclick="currentSlide(1)" alt="My current picture 1">
+			    </div>
+
+			    <div class="column">
+			      <img class="demo" src="4d3a6763-8597-4416-bc71-49c051a5c8e8.jpg" onclick="currentSlide(2)" alt="My current picture 2">
+			    </div>
+
+			    <div class="column">
+			      <img class="demo" src="IMG_20170613_160829.png" onclick="currentSlide(3)" alt="My picture when I was a baby">
+			    </div>
+
+			    <div class="column">
+			      <img class="demo" src="img4.jpg" onclick="currentSlide(4)" alt="Lights">
+			    </div>
+			  </div>
+			</div>
+
 	  		
-
-	  		</pre>
 
 		</div>	
 
 
 		<div id="Education" class="tabcontent">
-	  		<h3>Education</h3>	
+	  		<h3 style=font-size:150%;font-family:Arial Unicode MS>Education</h3>	
 	  		<img class="thompson" src="thompson.png">
 	  		<img class="usep"src="usep.png">
 	  		<img class="ic"src="ic-logo.png">
-	  		<pre>
+	  		<pre style=font-size:100%;font-family:Arial Unicode MS>
 
-
-
-			Kindergarten: Project Hope Daycare Center	|			
-				Senior Kinder - 1st Honors		|				
-				Junior Kinder - 1st Honors		|				
-									|			College: University of Southeastern Philippines
-									|			Department: Institute of Computing
-									|			Course: BS in Information Technology
-									|			
-									|			
-			Elementary: Thompson Christian School		|
-				Grade 1 - 2nd Honors			|			
-				Grade 2 - 3rd Honors			|
-				Grade 3 - 2nd Honors			|
-				Grade 4 - 3rd Honors			|
-				Grade 5 - 3rd Honors			|
-				Grade 6 - 2nd Honorable Mention		|
-									|
-			High School: Thompson Christian School		|
-				1st Year - 8th Honors			|
-				2nd Year - 7th Honors			|
-				3rd Year - 5th Honors			|
-				4th Year - 2nd Honorable Mention	|
+				<b>Kindergarten: Project Hope Daycare Center</b>	|			
+					SY 2003-2005							|
+					Senior Kinder - 1st Honors				|				
+					Junior Kinder - 1st Honors				|				
+														|					<b>College: University of Southeastern Philippines</b>
+														|					Department: Institute of Computing
+				<b>Elementary: Thompson Christian School</b>		|					Course: BS in Information Technology
+					SY 2005-2011							|						SY 2015-Present
+					Grade 1 - 2nd Honors					|				
+					Grade 2 - 3rd Honors					|
+					Grade 3 - 2nd Honors					|
+					Grade 4 - 3rd Honors					|
+					Grade 5 - 3rd Honors					|
+					Grade 6 - 2nd Honorable Mention			|
+														|
+				<b>High School: Thompson Christian School</b>		|
+					SY 2011-2015							|
+					1st Year - 8th Honors					|
+					2nd Year - 7th Honors					|
+					3rd Year - 5th Honors					|
+					4th Year - 2nd Honorable Mention			|
 
 	  	     
 
@@ -82,44 +143,60 @@
 		</div>
 
 		<div id="Skills" class="tabcontent">
-	  		<h3>Skills</h3>
-	  		<pre>
-	  		-I know how to use Java
-
-	  		-I know how to use HTML
-
-	  		-I know how to use CSS
-
-	  		-I know how to use C++
-	  		
-	  		-I know how to Photoshop
+	  		<h3 style=font-size:150%;font-family:Arial Unicode MS>Skills</h3>
+	  		<pre style=font-family:Arial Unicode MS>
 
 
+
+	  			<b style=font-size:120%>IT Skills</b>									|
+	  														|
+			  		I know how to use <b>Java</b>						|
+			  												|
+			  		I know how to use <b>HTML</b>					|
+			  												|
+			  		I know how to use <b>CSS</b>						|
+			  												|
+			  		I know how to use <b>C++</b>						|
+			  												|
+			  		I know how to <b>Photoshop</b>					|
 
 	  		</pre>
 
 		</div>
 
 		<div id="Contacts" class="tabcontent">
-	  		<h3>Contacts</h3>
+	  		<h3 style=font-size:150%;font-family:Arial Unicode MS>Contacts</h3>
 				<meta name="viewport" content="width=device-width, initial-scale=1">
 				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	  		<pre>
-	  			<a href="https://www.facebook.com/majaru09" class="fa fa-facebook"></a> Matt Jacob C. Rulona
-	  			<a href="https://plus.google.com/u/0/102005520998058341230" class="fa fa-google"></a> Jacob Rulona
-	  			<a href="https://twitter.com/MJRulona09" class="fa fa-twitter"></a> @MJRulona09
-				<a href="https://www.instagram.com/majaru98/?hl=en" class="fa fa-instagram"></a> @majaru98
+	  		<pre style=font-family:Arial Unicode MS><b>
+	  			<a href="https://www.facebook.com/majaru09" class="fa fa-facebook"></a> Matt Jacob C. Rulona		<a href="https://twitter.com/MJRulona09" class="fa fa-twitter"></a> @MJRulona09
+	  			<a href="https://plus.google.com/u/0/102005520998058341230" class="fa fa-google"></a> Jacob Rulona			<a href="https://www.instagram.com/majaru98/?hl=en" class="fa fa-instagram"></a> @majaru98
+	  			
+				
+
 
 				Email: mattrulona98@gmail.com
+					    mattrulona09@gmail.com
+					    mattrulona@gmail.com
+
 				Phone: 09257760998
-	  		</pre>
+	  		</b></pre>
 
 		</div>
 
-		<div id="Gallery" class="tabcontent">
-	  		<h3>Gallery</h3>
-	  		<pre></pre>
+		<div id="About" class="tabcontent">
+	  		<h3 style=font-size:150%;font-family:Arial Unicode MS>About</h3>
+	  		<pre style=font-size:140%;font-family:Arial Unicode MS><b>
 
+	  			The purpose of this website is to know the owner of the website more. 
+
+	  		All the information inside this website is PRIVATE and thus it must not be 
+
+	  		leaked outside of this website by sharing the link to others or showing 
+
+	  		it to them personally.
+		  		
+			</b></pre>
 		</div>
 
 		<script>
