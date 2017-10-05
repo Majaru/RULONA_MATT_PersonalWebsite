@@ -3,7 +3,7 @@
     overflow: hidden;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    opacity: 0.8;
+    opacity: 0.85;
 }
 
 .topnav a {
@@ -33,7 +33,7 @@ div.tab {
     width:20%;
     height: 529px;
     border-bottom-left-radius: 10px;
-    opacity: 0.9;
+    opacity: 0.96;
 }
 
 div.tab button {
@@ -67,7 +67,7 @@ div.tab button.active {
     width: 77.97%;
     border-left: none;
     height: 500px;
-    opacity: 0.9;
+    opacity: 0.96;
 
     border-bottom-right-radius: 10px;
 }
